@@ -1,0 +1,1 @@
+    These are few javascript practical questions i was working on in my free time.

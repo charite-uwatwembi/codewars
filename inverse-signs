@@ -1,0 +1,6 @@
+//Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives
+
+function inverseSigns (arr) {   
+    return arr.map(num => - num) //  map through each element in the array and multiply by -1 to invert sign  
+}
+console.log(inverseSigns([3, -4, 5, -6, 7])) // [3, 4, -5, 6, -7]
