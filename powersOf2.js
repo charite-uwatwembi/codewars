@@ -1,15 +1,7 @@
 function powersOfTwo (n){
-    let powers=[]
-    let power = 1
-
-    for(let i = 0; i < n; i++){
-        power *= 2
-        powers.push(power)
-        
-    }
-    return powers
+    return Math.floor(n / 2);
 }
 
 console.log(powersOfTwo(0))
-console.log(powersOfTwo(1))
+console.log(powersOfTwo(7))
 console.log(powersOfTwo(2))
